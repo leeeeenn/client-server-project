@@ -1,0 +1,228 @@
+Leen
+Leen Ahmad
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 43, 47); 
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    background: url()
+  }
+  #section1 {
+    text-align: center;
+    /*padding: 20px;*/
+    width : 100%;
+    height: 100vh;
+   /* background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));*/
+   box-shadow: 0 4px 8px rgba(235, 232, 232, 0.75);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #section1 {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(29, 29, 29, 0.1); 
+     background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+    background-color: rgba(249, 238, 255, 0.1)
+}
+  
+ /* #section4 {
+    background-color: rgb(249, 232, 249);
+  }*/
+  
+ 
+  
+ #section1 .image-overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(29, 29, 29, 0.1);
+
+} 
+
+#section1 .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 46%; 
+    transform: translate(-50%, -50%);
+    color: rgb(49, 48, 49);
+    font-family: 'Georgia', serif;
+    font-size: 35px; } 
+
+.blue-text {
+    color: rgb(87, 87, 240);
+    font-family: 'Brush Script MT', cursive;
+} 
+.container {
+  /*background-color: rgb(238, 243, 250);*/
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(2nd.png);
+  background-size: cover;
+
+  
+  
+}
+.container1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(2nd.png);
+    background-size: cover;
+    position: relative;
+    top: 280px;
+   
+  }
+  .container2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(2nd.png);
+    background-size: cover;
+    position: relative;
+    top: 280px;
+   
+  }
+.container .box, .container1 .box1,
+.container2 .box2
+{
+margin:auto;
+height : 70%;
+width : 75%;
+padding: 0 20px;
+background-color: rgba(255,255,255,0.1);
+z-index: 10;
+border: 2px solid rgba(255,255,255,0.7);
+border-radius: 20px;
+display: flex;
+backdrop-filter: blur(25px);
+box-shadow: -15px 17px 17px rgba(10,10,10,0.15);
+
+}
+.section  nav ,
+.section nav,
+.section nav {
+height : 7%;
+width : 70%;
+
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 15px auto;
+padding: 20px;
+
+}
+.section .logo,
+.section .logo1,
+.section .logo2{
+font-size: 35px;
+font-weight: 700;
+text-decoration: none;
+color:aliceblue;
+margin-left: 30px;
+}
+.section .logo::first-letter,
+.section .logo1::first-letter,
+.section .logo2::first-letter{
+color:rgb(84, 135, 139);
+font-size: 35px;
+}
+
+.content-container,
+.content1-container1,
+.content2-container2 {
+  display: flex;
+  width: 80%;
+}
+
+.content,
+.content1 ,
+.content2 {
+position : relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-top: 8%;
+padding-left: 80px;
+}
+.content .section-3,
+.content1 .section-3,
+.content2 .section-3{
+position: relative;
+width: 40%;
+}
+.content .section-3 h1,
+.content1 .section-3 h1,
+.content2 .section-3 h1{
+margin-bottom: 20px;
+font-size: 50px;
+font-weight: 700;
+color:aliceblue;
+}
+.content .section-3 h3,
+.content1 .section-3 h3{
+margin-bottom: 10px;
+font-size: 24px;
+color:aliceblue;
+}
+.content .section-3 p,
+.content1 .section-3 p,
+.content2 .section-3 p{
+margin-bottom: 50px;
+font-size: 15px;
+color:rgb(130, 137, 151);
+}
+.content .section-4,
+.content1 .section-4{
+width : 60%;
+position: relative;
+}
+.content.section-4::after,
+.content1 .section-4::after {
+content: '';
+position: absolute;
+background-color: #6f34fe;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+z-index: -1;
+top: 20%;
+left: 24%;
+
+}
+.content .section-4 img,
+.content1 .section-4 img  {
+width: 100%;
+}
